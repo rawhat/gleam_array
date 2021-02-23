@@ -1,0 +1,16 @@
+{application, arrays,
+ [{description, "Wrapper for erlang array module"},
+  {vsn, "0.0.1"},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib,
+    gleam_stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {include_files, ["gleam.toml", "gen"]},
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+]}.
