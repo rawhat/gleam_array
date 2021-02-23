@@ -1,5 +1,4 @@
-type Array(a) =
-  List(a)
+pub external type Array(a)
 
 external fn array_size(array: Array(a)) -> Int =
   "array" "size"

@@ -1,4 +1,4 @@
-import arrays
+import gleam/arrays
 import gleam/should
 
 pub fn new_arrays_should_have_size_test() {

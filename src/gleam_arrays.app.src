@@ -1,4 +1,4 @@
-{application, arrays,
+{application, gleam_arrays,
  [{description, "Wrapper for erlang array module"},
   {vsn, "0.0.1"},
   {registered, []},
